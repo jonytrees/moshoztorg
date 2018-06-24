@@ -1,0 +1,53 @@
+//====================global header
+.layout-header {
+  @include abs-center;
+  //@include abs-center-fixed;
+  bottom: auto;
+  z-index: 50;
+  padding-top: 0px;
+
+
+
+  &.active {
+
+  }
+
+  .si-phone {
+    padding-top: 0px;
+  }
+}
+
+.logo {
+  display: inline-block;
+
+  img {
+    display: block;
+  }
+}
+
+.si-phone {
+  display: inline-block;
+
+  .si-phone-text {
+    margin-bottom: 0px;
+  }
+
+  .phone-link {
+    display: block;
+    margin-bottom: 0px;
+  }
+}
+
+.global-nav {
+
+  li {
+
+    &:not(:first-child) {
+      margin-left: 0px;
+    }
+  }
+
+  a {
+
+  }
+}
